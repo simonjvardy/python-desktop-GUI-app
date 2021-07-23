@@ -34,18 +34,16 @@ e1_value=StringVar()
 e1=Entry(window, textvariable=e1_value)
 e1.grid(row=0, column=1)
 
-# Label for the output
+# Label for the Results output
 label_out = Label(frame, text="Miles")
 label_out.grid(row=1, column=0)
 
-# Text display field
+# Results Text display field
 t1=Text(window, height=1, width=15)
 t1.grid(row=1,column=1)
 
 # Define the calculator "convert" button
 b1=Button(window, text="Convert", command=km_to_miles)
-
-# Add the button to the window
 b1.grid(row=2, column=0)
 
 
